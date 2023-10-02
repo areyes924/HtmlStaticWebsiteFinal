@@ -1,0 +1,66 @@
+/* https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/ */
+body {
+    background-color: rgb(0, 181, 115);
+  }
+
+.btn {
+    font-family: "helvetica neue", helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px rgba(132, 132, 243, 0.4);
+    padding: 6px 10px;
+    
+    /* border-radius: 20px; */
+  }
+
+  #menu{
+    text-align: center;
+  }
+
+  .TravelGuide{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center
+  }
+
+  .cityHeader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center
+  }
+
+div {
+    font-size: 18px;
+    text-align: center;
+    /* cursor: pointer; */
+  }
+
+
+img {
+    display: block;
+     width: 60%;
+     margin: auto;
+}
+
+.button{
+    display: inline;
+}
+
+form {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+
+ul {
+    list-style-type: disc; /* Set the type of bullet point */
+    text-align: center; /* Center-align the bullet points */
+  }
+
+  li {
+    text-align: center; /* Left-align the text within list items */
+  }
